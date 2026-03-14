@@ -248,8 +248,8 @@ function App() {
         <section className="relative h-[100dvh] w-full overflow-hidden flex items-end pb-24 px-6 md:px-16" id="hero">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop" 
-               alt="Bioluminescence tech network" 
+               src="https://images.unsplash.com/photo-1549729837-77af94bbedbb?q=80&w=2670&auto=format&fit=crop" 
+               alt="Raw concrete brutalist architecture" 
                className="w-full h-full object-cover object-center hero-bg"
              />
              <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/80 to-transparent"></div>
@@ -258,10 +258,10 @@ function App() {
           <div className="relative z-10 w-full max-w-7xl mx-auto hero-content">
             <h1 className="text-white flex flex-col gap-2">
               <span className="font-sans font-bold text-3xl md:text-5xl tracking-tight hero-text opacity-0 translate-y-10">
-                Growth is the
+                Deploy the
               </span>
               <span className="font-drama italic text-6xl md:text-8xl lg:text-[140px] leading-[0.85] text-background hero-text opacity-0 translate-y-10">
-                System.
+                Machine.
               </span>
             </h1>
             
@@ -365,8 +365,8 @@ function App() {
         <section id="philosophy" className="relative py-40 px-6 md:px-16 bg-dark overflow-hidden">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2940&auto=format&fit=crop" 
-               alt="Dark tech microscopy texture" 
+               src="https://images.unsplash.com/photo-1534954736367-ac5dced9676e?q=80&w=2728&auto=format&fit=crop" 
+               alt="Concrete brutalist pattern" 
                className="w-full h-full object-cover object-center opacity-10 philosophy-bg"
              />
           </div>
@@ -376,8 +376,8 @@ function App() {
               Most growth agencies focus on: <span className="text-background/90 font-medium">manual labor and guesswork.</span>
             </p>
             <h2 className="font-drama italic text-5xl md:text-7xl lg:text-8xl text-background leading-tight philosophy-text-2 opacity-0 translate-y-8">
-              We focus on: <br className="hidden md:block"/>
-              <span className="text-accent underline decoration-1 underline-offset-8">metrics that scale.</span>
+              We function <br className="hidden md:block"/>
+              <span className="text-accent underline decoration-1 underline-offset-8">without emotion.</span>
             </h2>
           </div>
         </section>
