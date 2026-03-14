@@ -243,11 +243,12 @@ function App() {
 
   return (
     <div ref={heroRef}>
+      <Navbar />
       <main>
         <section className="relative h-[100dvh] w-full overflow-hidden flex items-end pb-24 px-6 md:px-16" id="hero">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1542646274-1e0e8e6ab2ad?q=80&w=2938&auto=format&fit=crop" 
+               src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2670&auto=format&fit=crop" 
                alt="Dark forest texture" 
                className="w-full h-full object-cover object-center hero-bg"
              />
@@ -357,6 +358,9 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
         {/* Philosophy Section */}
         <section id="philosophy" className="relative py-40 px-6 md:px-16 bg-dark overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -448,6 +452,81 @@ function App() {
 
           </div>
         </section>
+
+        {/* Pricing / Membership Section */}
+        <section id="pricing" className="py-32 px-6 md:px-16 bg-background relative z-10 border-t border-gray-100/50">
+          <div className="max-w-7xl mx-auto">
+            <div className="mb-20 text-center flex flex-col items-center">
+              <h2 className="font-sans font-bold text-4xl md:text-5xl text-dark mb-4 tracking-tight">Activate Systems</h2>
+              <p className="font-mono text-primary text-sm uppercase tracking-wider mb-6">03 // Initialization</p>
+              <p className="font-sans text-dark/70 text-lg max-w-2xl">Select the deployment velocity that matches your clinic's capacity for scale.</p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-5xl mx-auto">
+              
+              {/* Tier 1 */}
+              <div className="bg-white rounded-[2rem] p-8 border border-gray-200 shadow-sm flex flex-col h-full hover:-translate-y-2 transition-transform duration-500">
+                <div className="mb-8">
+                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Essential</h3>
+                  <p className="font-sans text-dark/60 text-sm">Automated inbound capture.</p>
+                </div>
+                <div className="mb-8 flex-1">
+                  <ul className="flex flex-col gap-4">
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> 24/7 AI Voice Receptionist</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Web Chat & SMS Booking</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Basic Call Analytics</li>
+                  </ul>
+                </div>
+                <button className="w-full py-4 rounded-full border border-primary text-primary font-bold font-sans text-sm hover:bg-primary hover:text-white transition-colors">
+                  Join Waitlist
+                </button>
+              </div>
+
+              {/* Tier 2 (Highlighted) */}
+              <div className="bg-primary rounded-[2.5rem] p-10 border border-primary/20 shadow-xl flex flex-col h-[105%] relative z-10 md:-my-4 hover:-translate-y-2 transition-transform duration-500">
+                <div className="absolute top-0 right-8 transform -translate-y-1/2 bg-accent text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                  Recommended
+                </div>
+                <div className="mb-8">
+                  <h3 className="font-sans font-bold text-3xl text-white mb-2">Performance</h3>
+                  <p className="font-sans text-white/70 text-sm">Full funnel leak prevention.</p>
+                </div>
+                <div className="mb-8 flex-1">
+                  <ul className="flex flex-col gap-4">
+                    <li className="flex items-start gap-3 text-sm font-sans text-white/90"><span className="text-accent mt-0.5">•</span> Everything in Essential</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-white/90"><span className="text-accent mt-0.5">•</span> Intelligent Lead Follow-up</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-white/90"><span className="text-accent mt-0.5">•</span> Review Generation Engine</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-white/90"><span className="text-accent mt-0.5">•</span> Real-time ROI Telemetry</li>
+                  </ul>
+                </div>
+                <button className="btn-magnetic w-full bg-accent text-white py-4 rounded-full font-bold font-sans text-sm">
+                  <span className="btn-content">Book Consultation</span>
+                </button>
+              </div>
+
+              {/* Tier 3 */}
+              <div className="bg-white rounded-[2rem] p-8 border border-gray-200 shadow-sm flex flex-col h-full hover:-translate-y-2 transition-transform duration-500">
+                <div className="mb-8">
+                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Enterprise</h3>
+                  <p className="font-sans text-dark/60 text-sm">Scale across multiple locations.</p>
+                </div>
+                <div className="mb-8 flex-1">
+                  <ul className="flex flex-col gap-4">
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Everything in Performance</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Database Reactivation</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Custom API Integrations</li>
+                    <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Dedicated Success Manager</li>
+                  </ul>
+                </div>
+                <button className="w-full py-4 rounded-full border border-primary text-primary font-bold font-sans text-sm hover:bg-primary hover:text-white transition-colors">
+                  Contact Sales
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
       </main>
       
       {/* Footer */}
