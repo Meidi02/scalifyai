@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#F2F0E9', // Cream
-        dark: '#1A1A1A', // Charcoal
-        primary: '#2E4036', // Moss
-        accent: '#CC5833', // Clay
+        background: '#F0EFF4', // Ghost
+        dark: '#18181B', // Graphite
+        primary: '#0A0A14', // Deep Void
+        accent: '#7B61FF', // Plasma
       },
       fontFamily: {
-        sans: ['Plus Jakarta Sans', 'Outfit', 'sans-serif'],
-        drama: ['Cormorant Garamond', 'serif'],
-        mono: ['IBM Plex Mono', 'monospace'],
+        sans: ['Sora', 'sans-serif'],
+        drama: ['Instrument Serif', 'serif'],
+        mono: ['Fira Code', 'monospace'],
       },
     },
   },

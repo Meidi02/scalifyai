@@ -34,9 +34,9 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:block">
-        <button className={`btn-magnetic rounded-full px-6 py-2 text-sm font-bold transition-colors ${scrolled ? 'bg-accent text-white' : 'bg-white text-dark'}`}>
+        <a href="https://calendly.com/meidi-scalifyai/discovery-call" target="_blank" rel="noopener noreferrer" className={`inline-block btn-magnetic rounded-full px-6 py-2 text-sm font-bold transition-colors ${scrolled ? 'bg-accent text-white' : 'bg-white text-dark'}`}>
           <span className="btn-content">Get Started</span>
-        </button>
+        </a>
       </div>
 
       <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
@@ -49,9 +49,9 @@ const Navbar = () => {
           <a href="#features" onClick={() => setMenuOpen(false)}>Features</a>
           <a href="#philosophy" onClick={() => setMenuOpen(false)}>Philosophy</a>
           <a href="#protocol" onClick={() => setMenuOpen(false)}>Protocol</a>
-          <button className="bg-accent text-white rounded-full px-6 py-3 font-bold mt-2">
+          <a href="https://calendly.com/meidi-scalifyai/discovery-call" target="_blank" rel="noopener noreferrer" className="bg-accent text-white rounded-full px-6 py-3 font-bold mt-2 text-center">
             Get Started
-          </button>
+          </a>
         </div>
       )}
     </nav>
@@ -248,8 +248,8 @@ function App() {
         <section className="relative h-[100dvh] w-full overflow-hidden flex items-end pb-24 px-6 md:px-16" id="hero">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2670&auto=format&fit=crop" 
-               alt="Dark forest texture" 
+               src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop" 
+               alt="Bioluminescence tech network" 
                className="w-full h-full object-cover object-center hero-bg"
              />
              <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/80 to-transparent"></div>
@@ -266,9 +266,9 @@ function App() {
             </h1>
             
             <div className="mt-12 opacity-0 translate-y-10 hero-cta">
-              <button className="btn-magnetic bg-accent text-white px-8 py-4 rounded-full font-bold text-lg font-sans">
+              <a href="https://calendly.com/meidi-scalifyai/discovery-call" target="_blank" rel="noopener noreferrer" className="inline-block btn-magnetic bg-accent text-white px-8 py-4 rounded-full font-bold text-lg font-sans">
                 <span className="btn-content">Activate Growth</span>
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -365,8 +365,8 @@ function App() {
         <section id="philosophy" className="relative py-40 px-6 md:px-16 bg-dark overflow-hidden">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2727&auto=format&fit=crop" 
-               alt="Abstract organic texture" 
+               src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2940&auto=format&fit=crop" 
+               alt="Dark tech microscopy texture" 
                className="w-full h-full object-cover object-center opacity-10 philosophy-bg"
              />
           </div>
@@ -477,9 +477,9 @@ function App() {
                     <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Basic Call Analytics</li>
                   </ul>
                 </div>
-                <button className="w-full py-4 rounded-full border border-primary text-primary font-bold font-sans text-sm hover:bg-primary hover:text-white transition-colors">
+                <a href="https://calendly.com/meidi-scalifyai/discovery-call" target="_blank" rel="noopener noreferrer" className="w-full py-4 rounded-full border border-primary text-primary font-bold font-sans text-sm hover:bg-primary hover:text-white transition-colors text-center inline-block">
                   Join Waitlist
-                </button>
+                </a>
               </div>
 
               {/* Tier 2 (Highlighted) */}
@@ -499,9 +499,9 @@ function App() {
                     <li className="flex items-start gap-3 text-sm font-sans text-white/90"><span className="text-accent mt-0.5">•</span> Real-time ROI Telemetry</li>
                   </ul>
                 </div>
-                <button className="btn-magnetic w-full bg-accent text-white py-4 rounded-full font-bold font-sans text-sm">
+                <a href="https://calendly.com/meidi-scalifyai/discovery-call" target="_blank" rel="noopener noreferrer" className="btn-magnetic w-full bg-accent text-white py-4 rounded-full font-bold font-sans text-sm text-center inline-block">
                   <span className="btn-content">Book Consultation</span>
-                </button>
+                </a>
               </div>
 
               {/* Tier 3 */}
@@ -518,9 +518,9 @@ function App() {
                     <li className="flex items-start gap-3 text-sm font-sans text-dark/80"><span className="text-accent mt-0.5">•</span> Dedicated Success Manager</li>
                   </ul>
                 </div>
-                <button className="w-full py-4 rounded-full border border-primary text-primary font-bold font-sans text-sm hover:bg-primary hover:text-white transition-colors">
+                <a href="https://calendly.com/meidi-scalifyai/discovery-call" target="_blank" rel="noopener noreferrer" className="w-full py-4 rounded-full border border-primary text-primary font-bold font-sans text-sm hover:bg-primary hover:text-white transition-colors text-center inline-block">
                   Contact Sales
-                </button>
+                </a>
               </div>
 
             </div>
