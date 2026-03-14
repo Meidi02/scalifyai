@@ -285,8 +285,8 @@ function App() {
               {/* Card 1: Diagnostic Shuffler */}
               <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-gray-100 flex flex-col h-[400px] overflow-hidden relative feature-card">
                 <div className="mb-8 z-10 relative">
-                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Sub-2-Minute Response</h3>
-                  <p className="text-dark/70 font-sans text-sm">AI Voice & Text Agents engaged 24/7, booking appointments instantly.</p>
+                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Zero Dropped Leads</h3>
+                  <p className="text-dark/70 font-sans text-sm">Our world-class AI agents engage 24/7, ensuring no lead ever falls through the cracks.</p>
                 </div>
                 
                 <div className="flex-1 relative mt-4 shuffler-container w-full max-w-[280px] mx-auto">
@@ -330,8 +330,8 @@ function App() {
               {/* Card 3: Cursor Protocol Scheduler */}
               <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-gray-100 flex flex-col h-[400px] feature-card">
                 <div className="mb-8">
-                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Zero-Leakage Funnel</h3>
-                  <p className="text-dark/70 font-sans text-sm">Intelligent follow-ups rescuing 40% of historically dead leads.</p>
+                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Maximized LTV</h3>
+                  <p className="text-dark/70 font-sans text-sm">Intelligent follow-ups rescuing dead leads and adding hundreds of thousands in new revenue.</p>
                 </div>
 
                 <div className="flex-1 relative">
@@ -373,11 +373,11 @@ function App() {
           
           <div className="relative z-10 max-w-5xl mx-auto flex flex-col justify-center min-h-[50vh]">
             <p className="font-sans text-background/60 text-lg md:text-2xl mb-8 philosophy-text-1 opacity-0 translate-y-8">
-              Most growth agencies focus on: <span className="text-background/90 font-medium">manual labor and guesswork.</span>
+              Most systems let <span className="text-background/90 font-medium">40% of leads fall through the cracks.</span>
             </p>
             <h2 className="font-drama italic text-5xl md:text-7xl lg:text-8xl text-background leading-tight philosophy-text-2 opacity-0 translate-y-8">
-              We function <br className="hidden md:block"/>
-              <span className="text-accent underline decoration-1 underline-offset-8">without emotion.</span>
+              We build the best conversion system <br className="hidden md:block"/>
+              <span className="text-accent underline decoration-1 underline-offset-8">in the world.</span>
             </h2>
           </div>
         </section>
@@ -433,8 +433,8 @@ function App() {
               <div className="bg-dark rounded-[3rem] w-full max-w-5xl h-[80vh] flex flex-col md:flex-row overflow-hidden border border-gray-800 shadow-2xl">
                 <div className="w-full md:w-1/2 p-12 md:p-20 flex flex-col justify-center">
                   <span className="font-mono text-accent text-lg mb-6 block">03</span>
-                  <h3 className="font-sans font-bold text-4xl md:text-5xl text-background mb-6">391%+ Growth Systems</h3>
-                  <p className="font-sans text-lg text-background/70 leading-relaxed">Our ROI tracker provides real-time telemetry, proving the 391%+ increase in conversions, while our reactivation engine resuscitates old leads into consistent revenue.</p>
+                  <h3 className="font-sans font-bold text-4xl md:text-5xl text-background mb-6">Unrivaled Conversions</h3>
+                  <p className="font-sans text-lg text-background/70 leading-relaxed">The best conversion system in the world ensures that no lead ever falls through the cracks, systematically adding hundreds of thousands in new revenue to your clinic.</p>
                 </div>
                 <div className="w-full md:w-1/2 bg-zinc-900 flex items-center justify-center relative overflow-hidden">
                   <svg className="w-full h-32 text-accent" viewBox="0 0 400 100" preserveAspectRatio="none">
