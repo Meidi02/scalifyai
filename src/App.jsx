@@ -248,7 +248,7 @@ function App() {
         <section className="relative h-[100dvh] w-full overflow-hidden flex items-end pb-24 px-6 md:px-16" id="hero">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1549729837-77af94bbedbb?q=80&w=2670&auto=format&fit=crop" 
+               src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2940&auto=format&fit=crop" 
                alt="Raw concrete brutalist architecture" 
                className="w-full h-full object-cover object-center hero-bg"
              />
@@ -365,7 +365,7 @@ function App() {
         <section id="philosophy" className="relative py-40 px-6 md:px-16 bg-dark overflow-hidden">
           <div className="absolute inset-0 z-0">
              <img 
-               src="https://images.unsplash.com/photo-1534954736367-ac5dced9676e?q=80&w=2728&auto=format&fit=crop" 
+               src="https://images.unsplash.com/photo-1541888002625-50e5040f7b02?q=80&w=2940&auto=format&fit=crop" 
                alt="Concrete brutalist pattern" 
                className="w-full h-full object-cover object-center opacity-10 philosophy-bg"
              />
