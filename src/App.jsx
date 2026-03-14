@@ -118,7 +118,7 @@ function App() {
       }, 3000);
 
       // --- Feature 2: Telemetry Typewriter ---
-      const typeText = "> ANALYZING CAMPAIGN...\n> ROI: +312%\n> REVIEWS GENERATED: 48\n> RANKING IMPROVEMENT: #1 LOCAL\n> SYSTEM OPTIMIZED.";
+      const typeText = "> ANALYZING FUNNEL VELOCITY...\n> AVG RESPONSE TIME: 1.4 MINS\n> LEAD-TO-BOOKING CONVERSION: +391%\n> REVIEWS GENERATED: 142/MO\n> SYSTEM ENGAGED.";
       const typeTarget = document.querySelector('.typewriter-text');
       
       const typeWriter = () => {
@@ -285,8 +285,8 @@ function App() {
               {/* Card 1: Diagnostic Shuffler */}
               <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-gray-100 flex flex-col h-[400px] overflow-hidden relative feature-card">
                 <div className="mb-8 z-10 relative">
-                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Unmissable Communication</h3>
-                  <p className="text-dark/70 font-sans text-sm">AI Voice & Text Agents active 24/7.</p>
+                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Sub-2-Minute Response</h3>
+                  <p className="text-dark/70 font-sans text-sm">AI Voice & Text Agents engaged 24/7, booking appointments instantly.</p>
                 </div>
                 
                 <div className="flex-1 relative mt-4 shuffler-container w-full max-w-[280px] mx-auto">
@@ -312,8 +312,8 @@ function App() {
               {/* Card 2: Telemetry Typewriter */}
               <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-gray-100 flex flex-col h-[400px] feature-card">
                 <div className="mb-8">
-                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">Automated Growth</h3>
-                  <p className="text-dark/70 font-sans text-sm">Review gen & ROI tracking telemetry.</p>
+                  <h3 className="font-sans font-bold text-2xl text-dark mb-2">+391% Conversion Lift</h3>
+                  <p className="text-dark/70 font-sans text-sm">Real-time ROI telemetry & automated 5-star review generation.</p>
                 </div>
 
                 <div className="flex-1 bg-dark rounded-xl p-4 overflow-hidden flex flex-col relative">
@@ -331,7 +331,7 @@ function App() {
               <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-gray-100 flex flex-col h-[400px] feature-card">
                 <div className="mb-8">
                   <h3 className="font-sans font-bold text-2xl text-dark mb-2">Zero-Leakage Funnel</h3>
-                  <p className="text-dark/70 font-sans text-sm">Intelligent follow-ups & reactivation.</p>
+                  <p className="text-dark/70 font-sans text-sm">Intelligent follow-ups rescuing 40% of historically dead leads.</p>
                 </div>
 
                 <div className="flex-1 relative">
@@ -377,7 +377,7 @@ function App() {
             </p>
             <h2 className="font-drama italic text-5xl md:text-7xl lg:text-8xl text-background leading-tight philosophy-text-2 opacity-0 translate-y-8">
               We focus on: <br className="hidden md:block"/>
-              <span className="text-accent underline decoration-1 underline-offset-8">autonomous systems.</span>
+              <span className="text-accent underline decoration-1 underline-offset-8">metrics that scale.</span>
             </h2>
           </div>
         </section>
@@ -415,7 +415,7 @@ function App() {
                 <div className="w-full md:w-1/2 p-12 md:p-20 flex flex-col justify-center">
                   <span className="font-mono text-accent text-lg mb-6 block">02</span>
                   <h3 className="font-sans font-bold text-4xl md:text-5xl text-dark mb-6">Agent Deployment</h3>
-                  <p className="font-sans text-lg text-dark/70 leading-relaxed">Voice and text models are trained on your specific services and launched to begin handling inbound volume and reactivation immediately.</p>
+                  <p className="font-sans text-lg text-dark/70 leading-relaxed">Voice and text models are trained on your specific services. Every lead is called within 2 minutes and booked directly into your calendar without human intervention.</p>
                 </div>
                 <div className="w-full md:w-1/2 bg-primary flex items-center justify-center relative overflow-hidden">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-light to-primary opacity-50"></div>
@@ -433,8 +433,8 @@ function App() {
               <div className="bg-dark rounded-[3rem] w-full max-w-5xl h-[80vh] flex flex-col md:flex-row overflow-hidden border border-gray-800 shadow-2xl">
                 <div className="w-full md:w-1/2 p-12 md:p-20 flex flex-col justify-center">
                   <span className="font-mono text-accent text-lg mb-6 block">03</span>
-                  <h3 className="font-sans font-bold text-4xl md:text-5xl text-background mb-6">Continuous Optimization</h3>
-                  <p className="font-sans text-lg text-background/70 leading-relaxed">Our ROI tracker provides real-time telemetry while the review generation engine builds your local authority autonomously.</p>
+                  <h3 className="font-sans font-bold text-4xl md:text-5xl text-background mb-6">391%+ Growth Systems</h3>
+                  <p className="font-sans text-lg text-background/70 leading-relaxed">Our ROI tracker provides real-time telemetry, proving the 391%+ increase in conversions, while our reactivation engine resuscitates old leads into consistent revenue.</p>
                 </div>
                 <div className="w-full md:w-1/2 bg-zinc-900 flex items-center justify-center relative overflow-hidden">
                   <svg className="w-full h-32 text-accent" viewBox="0 0 400 100" preserveAspectRatio="none">
