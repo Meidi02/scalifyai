@@ -549,6 +549,8 @@ function App() {
               <a href="#" className="font-sans text-background/70 hover:text-white transition-colors">About</a>
               <a href="#" className="font-sans text-background/70 hover:text-white transition-colors">Case Studies</a>
               <a href="#" className="font-sans text-background/70 hover:text-white transition-colors">Contact</a>
+              <a href="/privacy-policy" className="font-sans text-background/70 hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/terms-and-conditions" className="font-sans text-background/70 hover:text-white transition-colors">Terms & Conditions</a>
             </div>
           </div>
         </div>
